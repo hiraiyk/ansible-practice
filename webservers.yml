@@ -2,7 +2,6 @@
 # file: webservers.yml
 - hosts: webservers
   remote_user: jenkins
-  sudo: yes
   become: yes
   become_user: root
   gather_facts: yes

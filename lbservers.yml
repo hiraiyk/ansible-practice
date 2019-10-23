@@ -2,10 +2,8 @@
 # file: lbservers.yml
 - hosts: lbservers
   remote_user: jenkins
-  sudo:yeis
   become: yes
   become_user: root
-  ansible_sudo_pass: intellilink
   gather_facts: yes
   roles:
     - common
