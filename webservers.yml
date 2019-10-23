@@ -4,6 +4,7 @@
   remote_user: jenkins
   become: yes
   become_user: root
+  ansible_sudo_pass: intellilink
   gather_facts: yes
   roles:
     - common
